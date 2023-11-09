@@ -7,3 +7,10 @@
 
 // Attach the function to the button click event
 document.getElementById('signinButton').addEventListener('click', signInClicked);
+
+//bmi calculation
+function BmiCalc() {
+    window.location.href = 'bmi.html';
+}
+
+document.getElementById('CalcBmi').addEventListener('click', BmiCalc);
