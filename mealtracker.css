@@ -91,6 +91,18 @@ nav button{
     cursor: pointer;
     padding: 15px 30px;
 }
+.Clickhere{
+    border: 0;
+    outline: 0;
+    background: rgb(246, 245, 245);
+    color: #0a0909;
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif; 
+}
 .features{
     padding: 50px 12%;
     font-size: 22px;
