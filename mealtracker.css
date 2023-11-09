@@ -45,8 +45,10 @@ nav button{
     display: inline-flex;
     align-items: center;
     background: transparent;
-    border: 1px solid #fff;
+    border: 1px solid #000000;
     padding: 7px 10px;
+    background: white;
+    color: #000000;
 }
 .language-btn img{
     width: 10px;
@@ -88,7 +90,7 @@ nav button{
     background: #f58025;
     border: 0;
     outline: 0;
-    color: #fff;
+    color:white;
     font-size: 16px;
     cursor: pointer;
     padding: 15px 30px;
@@ -159,7 +161,7 @@ nav button{
     padding: 20px;
     font-size: 18px;
     font-weight: 500;
-    background: #303030;
+    background: #f58025;
     margin-bottom: 2px;
     cursor: pointer;
     position: relative;
@@ -175,7 +177,7 @@ input[type="radio"]{
     display: none;
 }
 .accordian .content{
-    background: #303030;
+    background: #f58025;
     text-align: left;
     padding: 0 20px;
     max-height: 0;
@@ -199,7 +201,7 @@ input[type="radio"]{
 .footer{
     padding: 50px 15% 10px;
     border-top: 6px solid #f58025;
-    color: #f99245;
+    color: #000000;
 }
 .footer h2{
     font-size: 18px;
@@ -214,7 +216,7 @@ input[type="radio"]{
 .footer .col a{
     display: block;
     text-decoration: none;
-    color: #f58025;
+    color: #000000;
     font-size: 14px;
     margin-bottom: 10px;
 }
@@ -223,14 +225,15 @@ input[type="radio"]{
     padding: 10px 0;
 }
 .footer .language-btn{
-    color: #fff;
+    color: #000000;
     padding: 10px 20px;
     border-radius: 3px;
+    background: white;
 }
 .copyright-txt{
     font-size: 14px;
     margin-top: 20px;
-<<<<<<< HEAD
+
 }
-/* gfhgd */
+
 
