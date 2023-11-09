@@ -7,3 +7,4 @@
 
 // Attach the function to the button click event
 document.getElementById('signinButton').addEventListener('click', signInClicked);
+// jjg
