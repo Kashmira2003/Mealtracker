@@ -1,55 +1,5 @@
-<<<<<<< HEAD
-body{
-    display:flex;
-    justify-content: center;
-}
-
-.container{
-    border-radius:25px;
-    margin-top: 50px;
-    box-shadow: 0px 0px 5px 5px  #c76713;
-    width:300px;
-    
-    text-align: center;
-    border-radius: 30px;
-    text-align: center;
-
-}
-
-h1{
- margin-bottom: 60 px;
-}
-
-input{
-    border:none;
-    border-bottom: 2px solid #c76713 ;
-    width:50px;
-    outline:none;
-    margin-bottom: 10px;
-    padding:5px;
-    text-align: center;
-    font-size:20px;
-
- 
-}
 
 
-button{
-    width: 60%;
-    height: 35px;
-    margin-top: 25px;
-    border-radius: 25px;
-    border: none;
-    background-color: coral;
-    font-size: 20px;
-
-}
-
-#result{
-    margin-top: 20px;
-    font-size: 25px;
-    margin-bottom: 20px;
-=======
 *{
     margin: 0;
     padding: 0;
