@@ -20,9 +20,7 @@ function agegrpClick(){
 
 document.getElementById('ageGrp').addEventListener('click', agegrpClick);
 
-//diet plan
 function dietPlan(){
     window.location.href = 'dietplan.html';
 }
-
 document.getElementById('dietplan').addEventListener('click', dietPlan);
