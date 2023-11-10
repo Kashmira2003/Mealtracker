@@ -1,7 +1,5 @@
 // Function to run when the button is clicked
- function signInClicked() {
-    // You can add more functionality here
-    // For now, let's just open the "signin.html" file
+ function signInClicked(){
     window.location.href = 'signin.html';
 }
 
@@ -14,4 +12,10 @@ function BmiCalc() {
 }
 
 document.getElementById('CalcBmi').addEventListener('click', BmiCalc);
-// Mealtrackers suitability
+
+//age group
+function agegrpClick(){
+    window.location.href = 'agegrp.html';
+}
+
+document.getElementById('ageGrp').addEventListener('click', agegrpClick);
