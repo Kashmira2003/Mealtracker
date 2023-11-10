@@ -29,3 +29,4 @@ function checkRange() {
       resultElement.innerHTML = "Invalid input. Please enter a numerical value.";
     }
   }
+  
