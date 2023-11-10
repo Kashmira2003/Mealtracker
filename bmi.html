@@ -5,20 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MEALTRACKER</title>
 
-    <link rel="stylesheet" href="bmi.css">
+    <link rel="stylesheet" href="bmi.css" />
     <script src="bmi.js"></script>
-</head>
-<body>
-    <div class="container">
-    
-    <h1>BMI Calculator</h1>
-    <h4>Height(cm)</h4>
-    <input type="number" id="height">
-    <h4>Weight(kg)</h4>
-    <input type="number" id="weight"><br>
-    <button id="btn">Calculate</button>
+  </head>
+  <body>
+    <div class="info">
+      <h1>What is BMI?</h1>
+      <p>
+        Body Mass Index (BMI) is a numerical measure that relates an
+        individual's weight to their height, providing a simple and quick
+        screening tool to assess whether a person has a healthy body weight. BMI
+        is widely used in both clinical and public health settings to categorize
+        individuals into different weight status categories, helping to identify
+        potential health risks associated with being underweight, normal weight,
+        overweight, or obese.<br />
+        The formula for calculating BMI is straightforward and involves dividing
+        a person's weight in kilograms by the square of their height in meters.
+        For those using pounds and inches, a slightly modified formula is
+        employed, multiplying the weight in pounds by 703 before dividing by the
+        square of the height in inches.<br />The World Health Organization (WHO)
+        and many health agencies worldwide have established standard BMI
+        categories based on extensive population studies. These categories
+        include:<br /><b>1.Underweight (BMI less than 18.5):</b> Individuals
+        falling into this category may face health risks associated with
+        insufficient body weight. Underweight can be indicative of malnutrition,
+        eating disorders, or other underlying health issues.<br /><b
+          >2.Normal weight (BMI 18.5 to 24.9):</b
+        >This range is considered healthy for most adults. People within this
+        category generally have a lower risk of weight-related health
+        problems.<br /><b>3.Overweight (BMI 25 to 29.9):</b>
+        Individuals in this category have a higher amount of body fat than is
+        considered healthy, which may increase the risk of various health
+        conditions, including cardiovascular disease and type 2 diabetes.
+      </p>
+      <h1>How to use BMI calculator</h1>
+      <p>
+        BMI calculator is easy to use<br /><b>Step 1: </b>Enter your height in
+        cemtimeters(cm).<br /><b>Step 2: </b>Enter your weight in
+        kilograms(Kg).<br /><b>Step 3: </b>Click on the result button to see the
+        result
+      </p>
+    </div>
+    <div class="calculator">
+      <div class="container">
+        <h1>BMI Calculator</h1>
+        <h4>Height(cm)</h4>
+        <input type="number" id="height" />
+        <h4>Weight(kg)</h4>
+        <input type="number" id="weight" /><br />
+        <button id="btn">Calculate</button>
 
-    <div id="result">Result</div>
-</div>
-</body>
+        <div id="result">Result</div>
+      </div>
+    </div>
+  </body>
 </html>
