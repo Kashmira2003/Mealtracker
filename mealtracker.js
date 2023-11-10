@@ -14,3 +14,4 @@ function BmiCalc() {
 }
 
 document.getElementById('CalcBmi').addEventListener('click', BmiCalc);
+// Mealtrackers suitability
