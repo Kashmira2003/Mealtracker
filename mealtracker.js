@@ -24,3 +24,9 @@ function dietPlan(){
     window.location.href = 'dietplan.html';
 }
 document.getElementById('dietplan').addEventListener('click', dietPlan);
+
+//alergy
+function Allergyclick(){
+    window.location.href = 'allergy.html';
+}
+document.getElementById('alergy').addEventListener('click', Allergyclick);
