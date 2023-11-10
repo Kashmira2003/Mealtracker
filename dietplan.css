@@ -1,11 +1,53 @@
-     body{
-        padding: 10px;
-    }
-    .plan{
-       font-size: large;
-       font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    h1{
-        margin-bottom: 60 px;
-       }
-    
+body {
+   font-family: 'Arial', sans-serif;
+   background-color: #f4f4f4;
+   margin: 0;
+   padding: 0;
+   background-image: url(images/dietplan.jpg);
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   /* background-size: 1450px 730px; */
+}
+
+.container {
+   max-width: 400px;
+   margin: 50px auto;
+   padding: 20px;
+   background-color: #fff;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+   text-align: center;
+   color: #333;
+}
+
+label {
+   display: block;
+   margin-bottom: 10px;
+}
+
+input {
+   width: 100%;
+   padding: 8px;
+   margin-bottom: 15px;
+   box-sizing: border-box;
+}
+
+button {
+   background-color: #4caf50;
+   color: #fff;
+   border: none;
+   padding: 10px 15px;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #45a049;
+}
+
+#result {
+   margin-top: 20px;
+   font-weight: bold;
+}
